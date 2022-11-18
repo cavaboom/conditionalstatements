@@ -60,5 +60,12 @@ public class Main {
         if (standingPlacesUsed == standingPlaces) {
             System.out.println("Стоячих мест нет");
         }
-    }
+        // Задача 4
+        System.out.println("Задача 4");
+        int age_v2 = 17;
+        if (age_v2 >= 18) {
+            System.out.println("Поздравляем с совершеннолетием!");
+        } else {
+            System.out.println("Вы еще не совершеннолетний");
+        }
 }
