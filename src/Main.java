@@ -21,5 +21,44 @@ public class Main {
         if (yearsOld >= 24) {
             System.out.println("Человек окончил университет и может искать работу");
         }
+        // Задача 3
+        System.out.println("Задача 3");
+        int capacity = 102;
+        int seatPlaces = 60;
+        int standingPlaces = capacity - seatPlaces;
+        /*
+        if (capacity >= 102) {
+            System.out.println("В вагоне мест нет");
+        }
+        if (capacity < 102) {
+            System.out.println("Есть свободные места");
+        }
+        if (seatPlaces >= 60) {
+            System.out.println("Сидячих мест нет");
+        }
+        if (seatPlaces < 60) {
+            System.out.println("Есть свободные сидячие места");
+        }
+        if (standingPlaces >= standingPlaces) {
+            System.out.println("Стоячих мест нет");
+        }
+        if (standingPlaces < standingPlaces) {
+            System.out.println("Сточих мест нет");
+        }
+        */
+        int seatPlacesUsed = 25;
+        int standingPlacesUsed = 37;
+        if (seatPlacesUsed < seatPlaces) {
+            System.out.println("Есть еще " +(seatPlaces - seatPlacesUsed)+ " сидячих мест");
+        }
+        if (seatPlacesUsed == seatPlaces) {
+            System.out.println("Сидячих мест нет");
+        }
+        if (standingPlacesUsed < standingPlaces) {
+            System.out.println("Есть еще " +(standingPlaces - standingPlacesUsed)+ " стоячих мест");
+        }
+        if (standingPlacesUsed == standingPlaces) {
+            System.out.println("Стоячих мест нет");
+        }
     }
 }
