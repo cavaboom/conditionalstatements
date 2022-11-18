@@ -68,4 +68,15 @@ public class Main {
         } else {
             System.out.println("Вы еще не совершеннолетний");
         }
+        // Задача 5
+        System.out.println("Задача 5");
+        int yearsOld_v2 = 25;
+        if (yearsOld_v2 >= 7 && yearsOld_v2 < 18) {
+            System.out.println("Ребенок ходит в школу");
+        } else if (yearsOld_v2 >= 18 && yearsOld_v2 < 24) {
+            System.out.println("Человек может отправлятся в университет");
+        } else if (yearsOld_v2 >= 24) {
+            System.out.println("Человек окончил университет и может искать работу");
+        }
+    }
 }
