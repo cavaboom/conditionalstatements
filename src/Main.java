@@ -84,7 +84,7 @@ public class Main {
         int seatPlaces_v2 = 60;
         int standingPlaces_v2 = capacity - seatPlaces;
         int seatPlacesUsed_v2 = 25;
-        int standingPlacesUsed_v2 = 37;
+        int standingPlacesUsed_v2 = 36;
         if (seatPlacesUsed_v2 < seatPlaces_v2) {
             System.out.println("Есть еще " +(seatPlaces - seatPlacesUsed)+ " сидячих мест");
         } else {
