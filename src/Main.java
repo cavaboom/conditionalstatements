@@ -78,5 +78,22 @@ public class Main {
         } else if (yearsOld_v2 >= 24) {
             System.out.println("Человек окончил университет и может искать работу");
         }
+        // Задача 6
+        System.out.println("Задача 6");
+        int capacity_v2 = 102;
+        int seatPlaces_v2 = 60;
+        int standingPlaces_v2 = capacity - seatPlaces;
+        int seatPlacesUsed_v2 = 25;
+        int standingPlacesUsed_v2 = 37;
+        if (seatPlacesUsed_v2 < seatPlaces_v2) {
+            System.out.println("Есть еще " +(seatPlaces - seatPlacesUsed)+ " сидячих мест");
+        } else {
+            System.out.println("Сидячих мест нет");
+        }
+        if (standingPlacesUsed_v2 < standingPlaces_v2) {
+            System.out.println("Есть еще " +(standingPlaces - standingPlacesUsed)+ " стоячих мест");
+        } else {
+            System.out.println("Стоячих мест нет");
+        }
     }
 }
